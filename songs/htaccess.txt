@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+
+# Enable PHP
+AddType application/x-httpd-php .php
+
+# Set default charset
+AddDefaultCharset UTF-8
+
+# Set document root
+DocumentRoot "/public/songs/"
