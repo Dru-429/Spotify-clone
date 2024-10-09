@@ -1,0 +1,70 @@
+
+.border{
+    border:  2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display : flex ;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.justify_center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-gray{
+    background-color: #121212;
+    color: white;
+}
+
+.invert-img{
+    filter: invert(1);
+}
+
+.round-box {
+    border-radius: 5px;
+}
+
+.m-1{
+    margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+/* Target the scrollbar track (the background) using standard and vendor prefixes for wider compatibility */
+* {
+    scrollbar-color: #202020 #404040; /* Dark track, lighter thumb */
+  }
+  
+  /* Optional fallback for browsers without standard scrollbar-color support */
+  *::-webkit-scrollbar-track {
+    background-color: #202020; /* Dark grey for the track */
+  }
+  
+  /* Target the scrollbar thumb (the draggable part) using vendor prefixes for wider compatibility */
+  * {
+    scrollbar-color: #202020 transparent; /* Hide default thumb with dark track, reveal custom thumb on hover */
+  }
+  
+  /* Target the scrollbar thumb when hovered (optional) */
+  *::-webkit-scrollbar-thumb {
+    background-color: #404040; /* Lighter grey for the thumb */
+    border-radius: 6px; /* Add rounded corners for a smoother look */
+  }
+  
+  
+  
