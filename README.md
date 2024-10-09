@@ -2,7 +2,7 @@
 
 A sleek and responsive Spotify clone built with HTML, CSS, and JavaScript only.
 
-**Live Demo:** [Insert your live demo link here]
+**Live Demo:** [https://dru-spotify-clone.web.app/] ...not showing playlist as error in htaccess code
 
 **Features:**
 
